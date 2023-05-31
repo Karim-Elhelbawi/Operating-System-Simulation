@@ -1,0 +1,20 @@
+1
+finished
+7
+20
+40
+null
+false
+null
+b 3
+a 2
+semWait userInput
+assign a input
+assign b input
+semSignal userInput
+semWait userOutput
+printFromTo a b
+semSignal userOutput
+null
+null
+null
